@@ -15,9 +15,6 @@ class Block{
         Data:       ${this.data}`
     }
 
-
-
-
-
-
 }
+
+module.exports = Block; // Export als Modul
