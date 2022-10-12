@@ -7,6 +7,15 @@ class Block{
         this.data = data; // Daten
     }
 
+    toString(){ // für Debugging-Zwecke
+        return `Block -
+        Timestamp:  ${this.timestamp}
+        Last Hash:  ${this.lastHash}
+        Hash:       ${this.hash}
+        Data:       ${this.data}`
+    }
+
+
 
 
 
